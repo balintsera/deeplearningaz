@@ -9,7 +9,7 @@
 import numpy as np
 import pandas
 import matplotlib.pyplot as plt
-dataset = pandas.read_csv('/work/notebooks/dpt/Churn_Modelling.csv')
+dataset = pandas.read_csv('/work/ann-dataset/Churn_Modelling.csv')
 
 
 # In[2]:
@@ -87,7 +87,7 @@ import keras
 # In[10]:
 
 from keras.models import Sequential
-from keras.layers import Dense
+from keras.layers import Dense, Dropout
 
 
 

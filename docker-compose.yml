@@ -1,11 +1,11 @@
 version: '3'
 services:
   anaconda:
-    container_name: deeplearningAZ
+    container_name: deeplearningAZ2
     image: continuumio/anaconda3
     volumes:
       - ./:/work
     ports:
       - 8888:8867
-    entrypoint: ["/bin/bash", "-c", "/opt/conda/bin/conda install jupyter -y --quiet && /opt/conda/bin/jupyter notebook --notebook-dir=/work/notebooks --ip='*' --port=8867 --no-browser --allow-root"]
+    entrypoint: ["/bin/bash", "-c", "/opt/conda/bin/conda install jupyter -y --quiet && /opt/conda/bin/jupyter notebook --notebook-dir=/work/ --ip='*' --port=8867 --no-browser --allow-root"]
 
