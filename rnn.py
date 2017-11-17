@@ -59,7 +59,7 @@ def rnn():
 
 regressor = rnn()
 #%% Part 3 - Making the prediction
-dataset_test = pd.read_csv('/work-rnn/dataset/Google_Stock_Price_Test.csv')
+dataset_test = pd.read_csv('/work/rnn/dataset/Google_Stock_Price_Test.csv')
 dataset_test.iloc[:, 1:2].shape
 real_stock_price = dataset_test.iloc[:, 1:2]
 real_stock_price

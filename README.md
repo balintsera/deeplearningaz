@@ -6,10 +6,6 @@ There's a docker-compose file that activates a Jupyter environment to run the co
 
 Before running the files with VSCode, install keras and tensorflow `pip install keras tensorflow`. Then update all dependencies in the container with: `conda update --all`.
 
-
-
-
-
-
+At the current image version `apt-get update && apt-get install libgl1-mesa-glx -y` is also needed. 
 
 
